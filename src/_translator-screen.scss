@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 50vh;
+
   &__input {
     border: 3px #f2bb05 solid;
     resize: none;
@@ -14,10 +15,12 @@
     border-radius: 20px;
     padding: 20px;
     font-size: 1rem;
+
+    &:focus {
+      border: none;
+    }
   }
-  &__input:focus {
-    border: none;
-  }
+
   &__output {
     border: solid #d74e09 3px;
     padding: 20px;

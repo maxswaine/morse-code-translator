@@ -1,18 +1,30 @@
 .header {
   display: flex;
   justify-content: space-between;
-  height: 5vh;
+  height: 10vh;
   margin-top: 30px;
-  &__left--title {
-    font-size: 1.5rem;
+
+  &__left {
+    &--title {
+      font-size: 1rem;
+      text-align: center;
+    }
   }
+
   &__right {
     a {
       text-decoration: none;
-      font-size: 1.5rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    &:hover {
+      cursor: pointer;
     }
   }
-  &__right:hover {
-    cursor: pointer;
-  }
+}
+
+.conversion__type {
+  display: flex;
+  justify-content: center;
 }
