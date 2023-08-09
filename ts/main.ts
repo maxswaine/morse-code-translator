@@ -47,6 +47,7 @@ morseInput.addEventListener("input", (event: Event) => {
   displayMorseCode(text);
 });
 
+
 conversionSelect.addEventListener("change", (event) => {
   const selectedValue = (event.target as HTMLSelectElement).value;
 

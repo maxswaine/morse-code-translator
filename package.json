@@ -1,15 +1,19 @@
 {
   "name": "morse-code-translator",
+  "author": "Max Swaine",
+  "homepage": "github.io/maxswaine/morse-code-translator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:jest": "vitest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",
+    "gh-pages": "^5.0.0",
     "jest": "^29.6.2",
     "sass": "^1.64.2",
     "typescript": "^5.0.2",
