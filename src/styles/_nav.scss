@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  &__left--title {
+    font-size: 1.5rem;
+  }
+  &__right {
+    a {
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+  }
+  &__right:hover {
+    cursor: pointer;
+  }
+}

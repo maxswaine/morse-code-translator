@@ -2,23 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Morse Code Translator</title>
   </head>
-  <nav class="nav">
-    <div class="nav__right">
-      <h2 class="nav__right--title">MorseCode Translator</h2>
-    </div>
-    <div class="nav__left">
-      <h2>What is Morse Code</h2>
-    </div>
-  </nav>
   <body>
-    <div class="morse">
-      <textarea class="morse__input"></textarea>
-      <div class="morse__output"></div>
-    </div>
+    <header class="header">
+      <div class="header__left">
+        <h1 class="header__left--title">Morse Code Translator</h1>
+      </div>
+      <div class="header__right">
+        <a href="https://www.britannica.com/topic/Morse-Code" target="_blank"
+          >What is Morse Code?</a
+        >
+      </div>
+    </header>
+    <main class="main">
+      <div class="morse">
+        <textarea class="morse__input"></textarea>
+        <div class="morse__output"></div>
+      </div>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

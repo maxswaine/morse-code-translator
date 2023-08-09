@@ -1,0 +1,28 @@
+.morse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  &__input {
+    border: 3px #f2bb05 solid;
+    resize: none;
+    margin-top: 4em;
+    width: 60%;
+    height: 30vh;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1rem;
+  }
+  &__input:focus {
+    border: none;
+  }
+  &__output {
+    border: solid #d74e09 3px;
+    font-size: 3rem;
+    width: 60%;
+    min-height: 30vh;
+    border-radius: 20px;
+  }
+}
