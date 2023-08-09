@@ -18,11 +18,18 @@
       </div>
     </header>
     <main class="main">
+      <div class="conversion__type">
+        <label for="conversionSelect">Select Conversion:</label>
+        <select id="conversionSelect">
+          <option value="textToMorse">Text to Morse</option>
+          <option value="morseToText">Morse to Text</option>
+        </select>
+      </div>
       <div class="morse">
         <textarea class="morse__input"></textarea>
         <div class="morse__output"></div>
       </div>
     </main>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="./ts/main.ts"></script>
   </body>
 </html>
